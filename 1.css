@@ -1,0 +1,629 @@
+
+.header {
+    font-family: "Jost", sans-serif;
+    width: auto;
+    height: 120px;
+    background-color: #B17CD2;
+    justify-content: space-between;
+    display: flex;
+    
+    }
+
+
+.header p {
+
+    /* сделал отдельный класс чтобы изменять все параграфы в шапке вместе. А еще почему у тебя отдельный класс для имадже. Можно было его не писать, но пох*/
+    text-align: center;
+
+    margin-top: 2px;
+    
+
+}
+
+.header a {
+    
+    
+    /* выравнивает по центру */
+    margin-top: auto;
+    margin-bottom: auto
+}
+
+    .headerIMG {
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+
+    /* выравнивает по центру */
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+    .buttonAboutUs {
+        
+    width: 150px;
+    height: 26px;
+    background-color: #D9D9D9;
+    text-decoration :None;
+    }
+    .buttonPrice {
+        width: 150px;
+        height: 26px;
+        background-color: #D9D9D9;
+        text-decoration :None;
+    }
+    .buttonContacts {
+
+        margin-right: 125px;
+        width: 150px;
+        height: 26px;
+        background-color:#D9D9D9;  
+        text-decoration :None;
+    }
+    #main{
+      width: auto;
+      height: 1100px;
+    }
+    #main p {
+        text-align: center;
+        font-family: "Jost", sans-serif; 
+        font-size: 25px;
+    }
+    .divOrder {
+      
+        background-color: #A896A2;
+        height:450px;
+        width:900px;
+        margin: 0 auto;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .orderCake {
+        margin-top: 34px;
+        width: 350px;
+        height: 450px;
+        margin-left: 10px;
+    }
+    .create-line {
+       
+        margin-left: 30px;
+        width: 80%;
+        border-bottom: 0.5px solid #000000;
+        margin-bottom: 10px;
+        
+    }
+ 
+    .order {
+        opacity: 0.7;
+        text-align: center;
+        background-color: #D2B5EF;
+        height: 350px;
+        width: 400px;
+        float: right;
+        margin-right: 70px;
+        margin-top: 50px;
+    } 
+    .order p {
+    text-align: center;
+    margin-bottom: 10px;
+    }
+  
+      
+   .buttonOrder {
+    font-family: "Jost", sans-serif;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 140px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #000000;
+    background: #CD7AFF;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+   }
+
+   .buttonOrder:hover {
+    background: #bb1dd6;
+    box-shadow: 0 15px 20px rgba(168, 60, 177, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+  .orderLine {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+  }
+  .example{
+    text-align: center;
+  }
+  
+  .titleExample{
+    font-family: "Jura", sans-serif;
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center; /* Вертикальное выравнивание */
+    width: 200px;
+    height:45px;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .4);
+    margin: auto;
+    margin-top: 20px;
+  }
+  .oneImgExample{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 60px;
+  }
+  .twoImgExample{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px; 
+    margin-top: 30px;
+    margin-left: 60px;
+
+  }
+  #AboutUs {
+    
+    font-family: "Jura", sans-serif;
+    width: auto;
+    height: 1403px;
+  }
+  
+  .imgAboutUs {
+    width: 100%;
+    height: 300px;
+  }
+
+  .BlockAboutUs{
+ 
+    font-size: 23px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "Jost", sans-serif;
+    width: 650px;
+    height: 450px;
+    background-color: #E9C5FF;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+ 
+  .titleAboutUs{
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+
+  }
+
+
+.titleAboutUs p {
+  background-color: rgba(177, 38, 212, 0.3);
+  margin: 0;
+}
+.titleComand {
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.titleComand .arrow-left,
+.titleComand .arrow-right {
+  vertical-align: middle;
+}
+
+.titleComand span {
+  display: inline-block;
+  margin: 0 10px; /* Подстройте отступы вокруг текста по вашему дизайну */
+}
+.profileImg{
+  font-size: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between; /* Равномерное распределение по горизонтали */
+  align-items: center; /* Выравнивание по вертикали */
+  text-align: center;
+}
+.profileImg img {
+  max-width: 100%;
+}
+.triangle{
+  width: 100%;
+  height: 300px;
+}
+
+.chef{
+margin-left:60px;
+margin-top:70px;
+width:180px;
+height: 180px;  
+}
+
+.chef p{
+  margin-top: 35px;
+}
+
+
+.administrator{
+  margin-top:70px;
+  margin-right:60px;
+  width:180px;
+  height: 180px;
+}
+.administrator p {
+  margin-top: 35px;
+}
+
+.director{
+
+  width:220px;
+  height:220px;
+ 
+}
+#Price{ 
+
+ 
+  font-family: "Jura", sans-serif;
+  width: auto;
+  height:2700px;
+  text-align: center;
+  font-size: 25px;
+}
+.rectangle{
+  background-color: rgba(220, 177, 246, 0.5);
+  width: 100%;
+    height: 100px;
+}
+.titlePrice{
+  padding-top: 20px;
+  text-align: center;
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+
+}
+.titlePrice p {
+  
+  background-color: rgba(177, 38, 212, 0.3);
+}
+
+.bentoCake{
+  font-size: 16px;
+  float: left;
+  width: 300px;
+  margin-left: 50px;
+}
+.titleCake{
+  margin-left: 870px;
+  margin-bottom: 0;
+  text-decoration: underline;
+  font-size: 26px;
+  margin-right: 70px;
+  margin-top: 10px;
+  height:10px;
+  width:10px;
+}
+
+  .titleCake p {
+    margin: 0;
+   }
+
+
+.imgBentoCake{
+  width: 350px;
+  height: 300px;
+}
+.divBento{
+ 
+  font-size: 23px;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(233, 169, 255, 0.3);
+  width: 400px;
+  height: 230px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  
+  
+}
+.divBento p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+
+
+.Medovik{
+  font-size: 16px;
+  float: right;
+  width: 300px;
+  margin-right: 100px;
+  margin-top: 90px;
+}
+
+.imgMedovik{
+  margin-top: 15px;
+  width: 350px;
+  height: 300px;
+}
+.divMedovik{
+ 
+  font-size: 23px;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(233, 169, 255, 0.3);
+  width: 400px;
+  height: 230px;
+  float: right;
+  margin-top: 95px;
+  margin-right: 122px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  
+  
+}
+.divMedovik p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+
+.mousseCake{
+  font-size: 16px;
+  float: left;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.imgMousseCake{
+  width: 350px;
+  height: 300px;
+}
+.divMousseCake{
+ 
+  font-size: 23px;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(233, 169, 255, 0.3);
+  width: 400px;
+  height: 230px;
+  float: right;
+  margin-right: 47px;
+  margin-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  
+  
+}
+.divMousseCake p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.cakeLine {
+  text-align: center;
+    width: 98%;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+
+.titleKeks{
+  margin-left: 45px;
+  margin-bottom: 0;
+  text-decoration: underline;
+  font-size: 26px;
+  margin-right: 70px;
+  margin-top: 20px;
+  height:10px;
+  width:10px;
+}
+
+  .titleKeks p {
+    margin: 0;
+   }
+   .Maffins{
+    font-size: 16px;
+    float: right;
+    width: 300px;
+    margin-right: 100px;
+    margin-top: 63px;
+  }
+  
+  
+  .imgMaffins{
+    margin-top: 15px;
+    width: 350px;
+    height: 300px;
+  }
+  .divMaffins{
+   
+    font-size: 23px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(233, 169, 255, 0.3);
+    width: 400px;
+    height: 230px;
+    float: right;
+    margin-top: 95px;
+    margin-right: 122px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    
+    
+  }
+  .divMaffins p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .cupcakes{
+    font-size: 16px;
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 45px;
+  }
+  
+  .imgCupcakes{
+    width: 350px;
+    height: 300px;
+  }
+  .divCupcakes{
+   
+    font-size: 23px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(233, 169, 255, 0.3);
+    width: 400px;
+    height: 230px;
+    float: right;
+    margin-right: 47px;
+    margin-top: 57px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    
+    
+  }
+  .divCupcakes p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  
+
+  .Muale{
+    font-size: 16px;
+    float: right;
+    width: 300px;
+    margin-right: 100px;
+    margin-top: 60px;
+  }
+ 
+  
+  .imgMuale{
+    margin-top: 40px;
+    width: 350px;
+    height: 300px;
+  }
+  .divMuale{
+   
+    font-size: 23px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(233, 169, 255, 0.3);
+    width: 400px;
+    height: 230px;
+    float: right;
+    margin-top: 93px;
+    margin-right: 122px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    
+    
+  }
+  .divMuale p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .keksLine {
+    text-align: center;
+      width: 98%;
+      margin: auto;
+      margin-top: 80px;
+  }
+
+  .titleContacts {
+    font-size: 25px;
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .titleContacts .arrow-left,
+  .titleContacts .arrow-right {
+    vertical-align: middle;
+  }
+  
+  .titleContacts span {
+    display: inline-block;
+    margin: 0 10px; /* Подстройте отступы вокруг текста по вашему дизайну */
+  }
+  #Contacts{
+  font-family: "Jura", sans-serif;
+  width: auto;
+
+  text-align: center;
+  font-size: 25px;
+  }
+  #Contacts p{
+    margin: 0;
+  }
+  .number{
+    padding-left: 20px;
+    padding-top: 60px;
+    float: left;
+  }
+.email {
+  float: right;
+  padding-right: 20px;
+  padding-top: 60px;
+}
+.socialNetwork{
+  justify-content: space-between;
+width: auto;
+height: 80px;
+margin-top: 230px;
+
+  align-items: center;
+  display: flex;
+}
+.VK{
+  width:50px; 
+  height: 50px;
+  margin-left: 130px;
+  
+}
+.Telegram{
+  width:50px; 
+  height: 50px;
+}
+
+.YouTube{
+  width:67px; 
+  height: 46px;
+  margin-right: 130px;
+  
+}
